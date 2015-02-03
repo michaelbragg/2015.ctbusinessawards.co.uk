@@ -33,7 +33,7 @@ module.exports = function(grunt) {
   //  Build Site
 
    ,watch: {
-      files: ['src/**/*', '!src/_includes/bower_components/**/*']
+      files: ['web/**/*', '!web/_includes/bower_components/**/*']
      ,tasks: ['dev']
      ,options: {
         livereload: true
@@ -68,8 +68,8 @@ module.exports = function(grunt) {
    ,copy: {
       bower: {
         files: [
-          { expand: true, flatten: true, cwd: 'src/_includes/bower_components', src: ['html5shiv/dist/html5shiv.js'], dest: '<%= grunt.config.get("dest") %>/static/js/lib'},
-          { expand: true, flatten: true, cwd: 'src/_includes/bower_components', src: ['respondJS/dest/respond.min.js'], dest: '<%= grunt.config.get("dest") %>/static/js/lib'}
+          { expand: true, flatten: true, cwd: 'web/_includes/bower_components', src: ['html5shiv/dist/html5shiv.js'], dest: '<%= grunt.config.get("dest") %>/static/js/lib'},
+          { expand: true, flatten: true, cwd: 'web/_includes/bower_components', src: ['respondJS/dest/respond.min.js'], dest: '<%= grunt.config.get("dest") %>/static/js/lib'}
         ]
       }
     }
@@ -83,21 +83,21 @@ module.exports = function(grunt) {
    ,less: {
       development: {
         options: {
-          paths: ['src/static/css']
+          paths: ['web/static/css']
         }
        ,files: {
-          'src/static/css/global.css': ['src/_includes/less/global.less'],
-          'src/_includes/css/preload.css': ['src/_includes/less/preload.less']
+          'web/static/css/global.css': ['web/_includes/less/global.less'],
+          'web/_includes/css/preload.css': ['web/_includes/less/preload.less']
         }
       }
      ,production: {
         options: {
           compress: true
-         ,paths: ['src/static/css']
+         ,paths: ['web/static/css']
         }
        ,files: {
-          'src/static/css/global.css': ['src/_includes/less/global.less'],
-          'src/_includes/css/preload.css': ['src/_includes/less/preload.less']
+          'web/static/css/global.css': ['web/_includes/less/global.less'],
+          'web/_includes/css/preload.css': ['web/_includes/less/preload.less']
         }
       }
     }
@@ -152,7 +152,7 @@ module.exports = function(grunt) {
           Modernizr: true
         }
       },
-      src: ['gruntfile.js', 'src/_includes/js/*.js']
+      src: ['gruntfile.js', 'web/_includes/js/*.js']
     }
 
   // Optimise
