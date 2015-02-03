@@ -1,0 +1,25 @@
+{
+  "name": "2015.ctbusinessawards.co.uk",
+  "version": "0.1.0",
+  "homepage": "http://www.ctbusinessawards.co.uk/2015/",
+  "authors": [
+    "Trinity Mirror Creative"
+  ],
+  "description": "",
+  "license": "n/a",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "html5shiv#3.7.0",
+    "possession": "https://github.com/michaelbragg/possession.git#develop",
+    "jquery": "1.11.2",
+    "FitVids": "1.1.0",
+    "mb-comingsoon": "https://github.com/magicbruno/mb-comingsoon.git#1.0.0"
+  }
+}
