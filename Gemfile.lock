@@ -1,0 +1,9 @@
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll (= 2.5.3)
+  kramdown (= 1.5.0)

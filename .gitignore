@@ -1,0 +1,27 @@
+# Coventry Telegraph Business Awards 2015
+
+##  Site
+
+src/static/css/*.css
+
+## Ruby
+
+##  Jekyll
+
+_site/
+_beta/
+_2015/
+
+##  NodeJS
+
+node_modules/
+npm-debug.log
+.grunt
+
+## Bower
+
+src/_includes/bower_components/
+
+##  API
+
+api/
