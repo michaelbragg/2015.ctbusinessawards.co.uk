@@ -17,14 +17,14 @@ module.exports = function(grunt) {
       stage: {
         options: {
           variables: {
-            'dest': 'beta'
+            'dest': '_beta'
           }
         }
       },
       deploy: {
         options: {
           variables: {
-            'dest': '2015'
+            'dest': '_2015'
           }
         }
       }

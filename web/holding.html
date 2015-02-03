@@ -8,17 +8,99 @@ permalink: index.html
 
   <head>
 
+    <!--  Meta Data  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.name }}</title>
 
   </head>
+
+  <style>
+    body {
+      background: #274296;
+      font-family: Helvetica, Arial, sans-serif;
+      line-height: 1.5em;
+      color: #fff;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    a:hover {
+      color: #ccc;
+    }
+
+    .wrapper {
+      /* Center Content Block */
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+      max-width: 600px;
+      width: 50%;
+    }
+
+    .branding {
+      max-width: 100%;
+    }
+
+    /**
+     * Responsive Videos
+     */
+
+    .video__responsive {
+      position: relative;
+      margin-bottom: 2.5em;
+    }
+
+    .video__responsive video,
+    .video__responsive canvas {
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .video__responsive video {
+      height: 100%;
+      position: absolute;
+    }
+
+  </style>
 
   <body>
 
 
       <main class="wrapper">
-      <h1>Holding Page</h1>
+      <h1><img class="branding" src="{{ site.static }}/gui/logo-coventry-telegraph-business-awards-2015.png" alt="Coventry Telegraph Business Awards 2015"></h1>
+
+      <section class="video__responsive">
+        <canvas width="604" height="340"></canvas>
+        <video width="604" height="340" controls poster="http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png">
+          <source src="http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.mp4" type="video/mp4;" media="only screen and (min-width: 480px)"></source>
+          <source src="http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.webm}" type="video/webm" media="only screen and (min-width: 480px)"></source>
+          <img src="http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png" alt="">
+        </video>
+      </section>
+
+      <section>
+        <h2>Sponsorship</h2>
+        <p>For more information regarding sponsorship opportunities, call Craig&nbsp;Cooksley on 0121&nbsp;234&nbsp;5785 / 07826&nbsp;893&nbsp;264 or email <a href="mailto:craig.cooksley@trinitymirror.com?subject=CTBusiness%20Awards%202015%20Sponsorship">craig.cooksley@trinitymirror.com</a>.</p>
+      </section>
+
+      <section>
+        <h2>Nominating your business</h2>
+        <p>For more information regarding nominating your business for an award, please contact Kirsti&nbsp;Tomkinson on 0121&nbsp;234&nbsp;5775 / 07827&nbsp;254&nbsp;297 or email <a href="kirsti.tomkinson@trinitmirror.com?subject=CTBusiness%20Awards%202014%20Nomination">kirsti.tomkinson@trinitymirror.com</a>.</p>
+      </section>
+
       </main>
 
+      <footer class="wrapper">
+      <p>Trinity&nbsp;Mirror&nbsp;Midlands, Floor&nbsp;6, Fort&nbsp;Dunlop, Fort&nbsp;Parkway, Birmingham, B24&nbsp;9FF</p>
+      </footer>
+
+    <script src="{{ site.static }}/js/holding.js"></script>
 
   </body>
   </html>
