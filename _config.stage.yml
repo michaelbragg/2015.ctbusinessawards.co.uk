@@ -1,0 +1,44 @@
+# _config.yml
+
+# Server Config
+
+safe: true
+
+source: ./web
+destination: ./_site
+safe: true
+
+timezone: Europe/London
+encoding: "utf-8"
+
+future: false
+
+## Conversion
+
+markdown: kramdown
+highlighter: pygments
+lsi: false
+excerpt_separator: "\n\n"
+
+## Backwards-compatibility
+
+relative_permalinks: false
+
+# Site Config
+
+name: Coventry Telegrphy Business Awards 2015
+
+url: http://www.ctbusinessawards.co.uk/beta
+static: http://www.ctbusinessawards.co.uk/beta/static
+media: http://www.ctbusinessawards.co.uk/beta/media
+
+## Analytics
+
+google_analytics_id:
+
+## Meta
+
+meta:
+  author: author
+  description: "The Coventry Telegraph is celebrating the resilience and fortitude of business and industries in Birmingham, West Midlands. Nominate your business for a award."
+  keywords:
