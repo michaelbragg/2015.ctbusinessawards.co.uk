@@ -1,4 +1,6 @@
 ---
+sitemap:
+  exclude: true
 ---
 
 {% include bower_components/jquery/dist/jquery.min.js %}
