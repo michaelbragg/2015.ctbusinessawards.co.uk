@@ -13,6 +13,13 @@ encoding: "utf-8"
 
 future: false
 
+## Collections
+
+collections:
+ sponsors:
+  output: true
+  permalink: /sponsors/:path
+
 ## Conversion
 
 markdown: kramdown
