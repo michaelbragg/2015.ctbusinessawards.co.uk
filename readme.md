@@ -1,4 +1,4 @@
-# Coventry Telegraph Business Awards 2014
+# Coventry Telegraph Business Awards 2015
 [http://ctbusinessawards.co.uk/2015/](http://www.ctbusinessawards.co.uk/2015/)
 
 ## Description
