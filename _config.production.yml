@@ -22,6 +22,9 @@ collections:
   partners:
     output: true
     permalink: /partners/:path/
+  judges:
+    output: true
+    permalink: /judges/:path/
 
 ## Conversion
 

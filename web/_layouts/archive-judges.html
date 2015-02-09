@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if site.judges %}
+
+<ul class="categories categories__columns list">
+  {% for award in site.judges %}
+  {{ judge.title }}
+  {% endfor %}
+</ul>
+{% endif %}
