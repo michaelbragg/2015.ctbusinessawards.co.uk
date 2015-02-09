@@ -16,7 +16,7 @@ future: false
 ## Collections
 
 collections:
-  categories:
+  awards:
     output: true
     permalink: /categories/:path/
   partners:
