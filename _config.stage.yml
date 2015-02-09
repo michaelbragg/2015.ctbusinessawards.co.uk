@@ -16,9 +16,12 @@ future: false
 ## Collections
 
 collections:
- sponsors:
-  output: true
-  permalink: /sponsors/:path
+  categories:
+    output: true
+    permalink: /categories/:path/
+  partners:
+    output: true
+    permalink: /partners/:path/
 
 ## Conversion
 

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% if site.partners %}
+
+  <section>
+
+    <h2>In association with:</h2>
+
+    <ul class="partners list">
+    {% for partner in site.partners %}
+
+      {% if partner.tags == 'associate' %}
+        <li class="block partners-item box separator--horizontal">
+        <aside class="block__aside partners-item__aside">
+          <a href="{{ site.url }}{{ partner.url }}">
+            <span class="icon sprite__partner sprite__partner--{{ partner.icon }}"></span>
+          </a>
+        </aside>
+        <articles class="block__content partners-item__content">
+          <h3>{{ partner.title }}</h3>
+          <p>{{ partner.description }}</p>
+          <p><a href="{{ site.url }}{{ partner.url }}">View Profile</a> | <a target="_blank" class="outbound link" href="{{ partner.website }}/">View Website</a></p>
+        </articles>
+      </li>
+      {% endif %}
+
+    {% endfor %}
+
+    </ul>
+
+    <h2>Supported by:</h2>
+
+    <ul class="partners list">
+    {% for partner in site.partners %}
+
+      {% if partner.tags == 'supporter' %}
+
+        <li class="block partners-item box separator--horizontal">
+        <aside class="block__aside partners-item__aside">
+          <a href="{{ site.url }}{{ partner.url }}">
+            <span class="icon sprite__partner sprite__partner--{{ partner.icon }}"></span>
+          </a>
+        </aside>
+        <articles class="block__content partners-item__content">
+          <h3>{{ partner.title }}</h3>
+          <p>{{ partner.description }}</p>
+          <p><a href="{{ site.url }}{{ partner.url }}">View Profile</a> | <a target="_blank" class="outbound link" href="{{ partner.website }}/">View Website</a></p>
+        </articles>
+      </li>
+      {% endif %}
+
+    {% endfor %}
+    </ul>
+
+  {% endif %}
+
+  </section>
