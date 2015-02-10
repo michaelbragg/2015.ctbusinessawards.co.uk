@@ -1,15 +1,15 @@
 {% if site.partners %}
-<section class="wrapper partners-bar cf">
+<section class="wrapper partners-bar box__large c cf">
 
   <div class="wrapper__sub">
 
-    <section class="grid ss1-ss4 ls1">
+    <section class="grid ss1-ss4 ls1-ls4">
     <h3 class="gamma heading--main">In association with:</h3>
 
     {% for partner in site.partners %}
 
       {% if partner.tags == 'associate' %}
-        <a class="outbound" target="_blank" href="{{ site.url }}{{ partner.url }}/">
+        <a class="outbound" target="_blank" href="{{ site.url }}{{ partner.url }}/" rel="nofollow">
             <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="{{ partner.title }}">
           </a>
       {% endif %}
@@ -18,7 +18,7 @@
 
     </section>
 
-    <section class="grid grid__seperator ss1-ss4 ls2-ls3">
+    <section class="grid grid__seperator ss1-ss4 ls5-ls12">
     <h3 class="gamma heading--main">Supported by:</h3>
     <ul class="list gallery cf">
 
