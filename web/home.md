@@ -3,31 +3,30 @@ layout: news
 stylesheet:
 class: page__home
 
-title: Celebrate your success in business with the Coventry Telegraph
 permalink: /
+
+title: Celebrate your success in business with the Coventry Telegraph
+
 meta:
   keywords:
   description:
   author:
 
 hero:
-  image: hero_2014-winners.jpg
-  alt:
-  copy: Order Your Photos
-  link: http://birminghamcoventrymidlands.newsprints.co.uk/
+  image: hero_2014-winners-02.jpg
 
 video:
  poster: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png
  mp4: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.mp4
  webm: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.webm
 
-sponsors: true
+partners: true
 
 sitemap:
-  lastmod: 2014-11-27
+  lastmod: 2015-02-23
   priority: 0.7
   changefreq: weekly
-  exclude:
+  exclude: false
 ---
 
 ## Coventry Telegraph Business Awards

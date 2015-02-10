@@ -1,7 +1,7 @@
 ---
 layout: default
 stylesheet:
-class: page__terms
+class: page__terms not-hero
 
 title: Terms &amp; Conditions
 permalink: terms-conditions/
@@ -9,6 +9,9 @@ meta:
   keywords:
   description:
   author:
+
+hero: false
+partners: false
 
 sitemap:
   lastmod: 2014-11-27

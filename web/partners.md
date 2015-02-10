@@ -3,7 +3,7 @@ layout: archive-partners
 stylesheet:
 class: page__partners
 
-title: Partners
+title: 2015 Partners
 permalink: partners/
 meta:
   keywords:
@@ -11,10 +11,7 @@ meta:
   author:
 
 hero:
-  image: hero_2014-winners.jpg
-  alt:
-  copy: Order Your Photos
-  link: http://birminghamcoventrymidlands.newsprints.co.uk/
+  image: hero_2014-winners-01.jpg
 
 partners: true
 
@@ -24,8 +21,6 @@ sitemap:
   changefreq: weekly
   exclude:
 ---
-
-# 2015 Partners
 
 ## Become a partner:
 

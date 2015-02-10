@@ -11,12 +11,9 @@ meta:
   author:
 
 hero:
-  image: hero_2014-winners.jpg
-  alt:
-  copy: Order Your Photos
-  link: http://birminghamcoventrymidlands.newsprints.co.uk/
+  image: hero_2014-winners-01.jpg
 
-sponsors: true
+partners: true
 
 sitemap:
   lastmod: 2014-11-27
@@ -25,4 +22,6 @@ sitemap:
   exclude:
 ---
 
-# Judges
+## This year&rsquo;s panel will...
+
+

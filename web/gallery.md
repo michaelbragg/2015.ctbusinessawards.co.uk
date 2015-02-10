@@ -1,7 +1,7 @@
 ---
 layout: default
 stylesheet:
-class: page__gallery
+class: page__gallery not-hero
 
 published: false
 
@@ -12,13 +12,9 @@ meta:
   description:
   author:
 
-hero:
-  image: hero_2014-winners.jpg
-  alt:
-  copy: Order Your Photos
-  link: http://birminghamcoventrymidlands.newsprints.co.uk/
+hero: false
 
-sponsors: true
+partners: true
 
 sitemap:
   lastmod: 2014-11-27

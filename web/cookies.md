@@ -1,7 +1,7 @@
 ---
 layout: default
 stylesheet:
-class: page__cookies
+class: page__cookies not-hero
 
 
 title: How we use Cookies

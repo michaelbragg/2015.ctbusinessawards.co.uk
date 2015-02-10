@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: news
 stylesheet:
-class: page__nominate
+class: page__nominate not-hero
 
 title: Nominations for the 2015 Coventry Telegraph Business Awards
 permalink: nominate/
@@ -10,14 +10,8 @@ meta:
   description:
   author:
 
-hero:
-  image: hero_2014-winners.jpg
-  alt:
-  copy: Order Your Photos
-  link: http://birminghamcoventrymidlands.newsprints.co.uk/
-
-
-sponsors: true
+hero: false
+partners: true
 
 sitemap:
   lastmod: 2014-11-27
@@ -25,8 +19,6 @@ sitemap:
   changefreq: weekly
   exclude:
 ---
-
-## Nominations
 
 Opening Soon.
 

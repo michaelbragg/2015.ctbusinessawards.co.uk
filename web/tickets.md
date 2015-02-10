@@ -1,7 +1,7 @@
 ---
 layout: default
 stylesheet:
-class: page__tickets
+class: page__tickets not-hero
 
 
 title: Book a Table
@@ -12,7 +12,7 @@ meta:
   author:
 
 hero: false
-sponsors: false
+partners: true
 
 sitemap:
   lastmod: 2014-11-27

@@ -18,7 +18,7 @@ hero:
   copy: Order Your Photos
   link: http://birminghamcoventrymidlands.newsprints.co.uk/
 
-sponsors: true
+partners: true
 
 sitemap:
   lastmod: 2014-11-27
