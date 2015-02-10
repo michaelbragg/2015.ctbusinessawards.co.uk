@@ -1,14 +1,20 @@
 ---
-layout: default
+layout: columns-two
 ---
 
-{{ content }}
+<article>
 
-{% if site.judges %}
+  <h1 class="gamma heading--main">{{ page.title }}</h1>
 
-<ul class="categories categories__columns list">
-  {% for award in site.judges %}
-  {{ judge.title }}
-  {% endfor %}
-</ul>
-{% endif %}
+  {{ content }}
+
+  {% if site.judges %}
+
+  <ul class="categories categories__columns list">
+    {% for award in site.judges %}
+    {{ judge.title }}
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+</article>
