@@ -80,7 +80,7 @@ this one:</p>
 <ul>
   <li><strong>Internet Explorer:</strong> <a href="http://support.microsoft.com/kb/278835">http://support.microsoft.com/kb/278835</a> (this page links tofurther information for different versions of IE – the mobile version is at <a href="http://www.microsoft.com/windowsphone/en-us/howto/wp7/web/changing-privacy-and-other-browser-settings.aspx">http://www.microsoft.com/windowsphone/en-us/howto/wp7/web/changing-privacy-and-other-browser-settings.aspx</a>).</li>
   <li><strong>Chrome:</strong> <a href="http://support.google.com/chrome/bin/answer.py?hl=en-GB&nbsp;answer=95647">http://support.google.com/chrome/bin/answer.py?hl=en-GB&nbsp;answer=95647</a></li>
-  <li><strong>Safari:</strong> <a href="http://docs.info.apple.com/article.html?path=Safari/5.0/en/9277.html">http://docs.info.apple.com/article.html?path=Safari/5.0/en/9277.html</a>(or <a href="http://support.apple.com/kb/HT1677/">http://support.apple.com/kb/HT1677</a> for mobile versions)</li>
+  <li><strong>Safari:</strong> <a href="http://docs.info.apple.com/article.html?path=Safari/5.0/en/9277.html">http://docs.info.apple.com/article.html?path=Safari/5.0/en/9277.html</a>(or <a href="http://support.apple.com/en-us/HT201265/">http://support.apple.com/en-us/HT201265</a> for mobile versions)</li>
   <li><strong>Firefox:</strong> <a href="http://support.mozilla.org/en-US/kb/Enabling%20and%20disabling%20cookies">http://support.mozilla.org/en-US/kb/Enabling%20and%20disabling%20cookies</a></li>
   <li><strong>Blackberries:</strong> <a href="http://docs.blackberry.com/en/smartphone_users/deliverables/32004/Turn_off_cookies_in_the_browser_60_1072866_11.jsp">http://docs.blackberry.com/en/smartphone_users/deliverables/32004/Turn_off_cookies_in_the_browser_60_1072866_11.jsp</a></li>
   <li><strong>Android:</strong> <a href="http://support.google.com/mobile/bin/answer.py?hl=en&nbsp;answer=169022">http://support.google.com/mobile/bin/answer.py?hl=en&nbsp;answer=169022</a></li>
@@ -125,7 +125,7 @@ may use and their use of cookies:</p>
   <li>Storify&rsquo;s (a service that is sometimes used to embed a series of tweets) terms of service: <a href="http://storify.com/tos">http://storify.com/tos</a></li>
   <li>Brighcove video player&rsquo;s cookie policy; <a href="http://support.brightcove.com/en/docs/video-cloud-player-cookies">http://support.brightcove.com/en/docs/video-cloud-player-cookies</a></li>
   <li>YouTube video player cookie policy: <a href="http://www.google.com/intl/en/policies/privacy/faq/#toc-cookies">http://www.google.com/intl/en/policies/privacy/faq/#toc-cookies</a> (Google&rsquo;s standard terms).</li>
-  <li>Readers offers: Myoffers (reader offers): <a href="http://www.myoffers.co.uk/privacy_statement.aspx">http://www.myoffers.co.uk/privacy_statement.aspx</a></li>
+  <li>Readers offers: Myoffers (reader offers): <a href="http://www.myoffers.co.uk/privacy-statement/">http://www.myoffers.co.uk/privacy-statement/</a></li>
   <li>Tynt (adds a URL when you copy and paste) opt-out page: <a href="http://www.tynt.com/opt_out.php">http://www.tynt.com/opt_out.php</a></li>
 </ul>
 
@@ -147,13 +147,13 @@ advertising merely that it will not be tailored to your interests.</p>
 
 <ul>
   <li><strong>VisualDNA (ad relevancy):</strong> Privacy policy at <a href="http://www.vibrantmedia.com/privacy.asp">http://www.vibrantmedia.com/privacy.asp</a> and you can opt out via <a href="http://www.youronlinechoices.com/uk/">http://www.youronlinechoices.com/uk/</a></li>
-  <li><strong>Acudeo / Tremor (video advertising):</strong> Privacy policy at <a href="http://uk.tremorvideo.com/about-us2/privacy-policy/">http://uk.tremorvideo.com/about-us2/privacy-policy/</a> and you can opt out at <a href="http://www.tremorvideo.com/about-us/privacy/">http://www.tremorvideo.com/about-us/privacy/</a></li>
+  <li><strong>Acudeo / Tremor (video advertising):</strong> Privacy policy at <a href="http://www.tremorvideo.com/uk/privacy-policy">http://www.tremorvideo.com/uk/privacy-policy</a> and you can opt out at <a href="http://www.tremorvideo.com/about-us/privacy/">http://www.tremorvideo.com/about-us/privacy/</a></li>
   <li><strong>Audience Science (ad relevancy):</strong> Privacy policy at <a href="http://www.audiencescience.com/privacy">http://www.audiencescience.com/privacy</a> and opt out via <a href="http://www.youronlinechoices.com/uk/">http://www.youronlinechoices.com/uk/</a></li>
   <li><strong>Doubleclick (advertising):</strong> Privacy policy at <a href="http://www.google.com/doubleclick/privacy/">http://www.google.com/doubleclick/privacy/</a> and opt out via <a href="http://www.youronlinechoices.com/uk/">http://www.youronlinechoices.com/uk/</a></li>
   <li><strong>Inskin media (ad relevancy):</strong> Privacy policy and opt out via <a href="http://www.inskinmedia.com/privacy-policy/">http://www.inskinmedia.com/privacy-policy/</a></li>
   <li><strong>Google Adsense (ad partner):</strong> Privacy policy at <a href="https://support.google.com/adsense/bin/answer.py?hl=en-GB&utm_medium=link&gsessionid=DyXLmLB1J1MxXckh6tX6AQ&utm_campaign=ww-ww-et-asfe_&utm_source=aso&answer=48182">https://support.google.com/adsense/bin/answer.py?hl=en-GB&utm_medium=link&gsessionid=DyXLmLB1J1MxXckh6tX6AQ&utm_campaign=ww-ww-et-asfe_&utm_source=aso&answer=48182</a> and opt-out via <a href="https://www.google.com/settings/ads/onweb/">https://www.google.com/settings/ads/onweb/</a></li>
   <li><strong>Rubicon (ad partner):</strong> Privacy policy at <a href="http://www.rubiconproject.com/privacy-policy/">http://www.rubiconproject.com/privacy-policy/</a> and opt out at <a href="http://www.rubiconproject.com/privacy/consumer-online-profile-and-opt-out">http://www.rubiconproject.com/privacy/consumer-online-profile-and-opt-out</a></li>
-  <li><strong>Yoc (mobile ads):</strong> Privacy policy at <a href="https://www.yoc-performance.com/company_privacy.html">https://www.yoc-performance.com/company_privacy.html</a></li>
+  <li><strong>Yoc (mobile ads):</strong> Privacy policy at <a href="http://www.yoc-performance.com/company_privacy.html">http://www.yoc-performance.com/company_privacy.html</a></li>
   <li><strong>Outbrain (recommended content elsewhere on the web at the bottom of articles):</strong> Privacy policy at <a href="http://www.outbrain.com/privacy">http://www.outbrain.com/privacy</a></li>
 </ul>
 
