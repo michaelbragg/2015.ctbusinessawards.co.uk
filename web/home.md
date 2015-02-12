@@ -5,7 +5,7 @@ class: page__home
 
 permalink: /
 
-title: Celebrate your success in business with the Coventry Telegraph
+title: Celebrate your success in&nbsp;business with the&nbsp;Coventry&nbsp;Telegraph
 
 meta:
   keywords:
