@@ -1,4 +1,54 @@
 <!--  JavaScript Head  -->
 
+<script>
+
+var root = document.documentElement;
+// document.implementation Method
+if (document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1")) {
+  root.className += " svg";
+} else {
+  root.className += " no-svg";
+}
+
+var tm = tm || {};
+
+tm.test_svg = tm.test_svg || {};
+tm.test_svg = root.className && new RegExp("(\\s|^)" + 'svg' + "(\\s|$)").test(root.className);
+
+console.log(tm.test_svg);
+
+/*! SVG Fallback for unsupported browsers */
+tm.svg_fallback = tm.svg_fallback || {};
+tm.svg_fallback.init = function() {
+  console.log('SVG Fallback Running');
+var imgSVG = document.getElementsByTagName('img');
+for(var i = 0; i < imgSVG.length; i++) {
+  if( imgSVG[i].src.match( /.*\.svg$/ ) ){
+    imgSVG[i].src = imgSVG[i].src.slice(0, -3) + 'png';
+      console.log(imgSVG[i].src);
+  }
+}
+}
+
+if(!tm.test_svg){
+
+  if(window.attachEvent) {
+      window.attachEvent('onload', tm.svg_fallback.init);
+  } else {
+      if( window.onload ) {
+          var curronload = window.onload;
+          var newonload = function() {
+              curronload();
+              tm.svg_fallback.init();
+          };
+          window.onload = newonload;
+      } else {
+          window.onload = tm.svg_fallback.init;
+      }
+  }
+
+}
+
+</script>
+
 <!--[if lt IE 9]><script src="{{ site.static }}/js/lib/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="{{ site.static }}/js/lib/respond.min.js"></script><![endif]-->
