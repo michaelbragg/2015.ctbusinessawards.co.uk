@@ -102,6 +102,29 @@ module.exports = function(grunt) {
       }
     }
 
+   ,svg2png: {
+      gui: {
+        // specify files in array format with multiple src-dest mapping
+        files: [
+            // rasterize all SVG files in "img" and its subdirectories to "img/png"
+            {
+              cwd: '<%= grunt.config.get("dest") %>/static/gui/'
+             ,src: ['**/*.svg']
+             ,dest: '<%= grunt.config.get("dest") %>/static/gui/'
+             }
+        ]
+      }
+     ,media: {
+        files: [
+          {
+            cwd: '<%= grunt.config.get("dest") %>/media/'
+           ,src: ['**/*.svg']
+           ,dest: '<%= grunt.config.get("dest") %>/media/'
+          }
+        ]
+       }
+      }
+
   // Validate
 
    ,htmlhint: {
@@ -170,7 +193,7 @@ module.exports = function(grunt) {
         },
         {
           expand: true,
-          cwd: '<%= grunt.config.get("dest") %>/media',
+          cwd: '<%= grunt.config.get("dest") %>/static/media',
           src: ['**/*.{png,jpg,gif,svg}'],
           dest: '<%= grunt.config.get("dest") %>/static/media'
         }]
@@ -213,6 +236,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-config');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-hashres');
+  grunt.loadNpmTasks('grunt-svg2png');
   //grunt.loadNpmTasks('grunt-autoprefixer');
 
   // Options
@@ -222,7 +246,7 @@ module.exports = function(grunt) {
   grunt.registerTask('optim', ['imagemin']);
   grunt.registerTask('dev', ['config:dev', 'clean', 'less:development', 'shell:jekyll_dev', 'copy']);
   grunt.registerTask('serve', ['express', 'watch']);
-  grunt.registerTask('stage', ['config:stage', 'clean', 'less:production', 'shell:jekyll_stage', 'copy', 'hashres', 'optim']);
-  grunt.registerTask('deploy', ['config:deploy', 'clean', 'less:production', 'shell:jekyll_deploy', 'copy', 'hashres', 'optim']);
+  grunt.registerTask('stage', ['config:stage', 'clean', 'less:production', 'shell:jekyll_stage', 'copy', 'hashres', 'svg2png', 'optim']);
+  grunt.registerTask('deploy', ['config:deploy', 'clean', 'less:production', 'shell:jekyll_deploy', 'copy', 'hashres', 'svg2png', 'optim']);
 
 };
