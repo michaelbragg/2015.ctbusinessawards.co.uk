@@ -3,13 +3,14 @@
 
   <div class="wrapper__sub">
 
+    <!--
     <section class="grid ss1-ss4 ls1-ls4">
     <h3 class="gamma heading--main">In association with:</h3>
 
     {% for partner in site.partners %}
 
       {% if partner.tags == 'associate' %}
-        <a class="outbound" target="_blank" href="{{ site.url }}{{ partner.url }}/" rel="nofollow">
+        <a href="{{ site.url }}{{ partner.url }}">
             <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="{{ partner.title }}">
           </a>
       {% endif %}
@@ -17,23 +18,25 @@
     {% endfor %}
 
     </section>
+    -->
 
-    <section class="grid grid__seperator ss1-ss4 ls5-ls12">
-    <h3 class="gamma heading--main">Supported by:</h3>
-    <ul class="list gallery cf">
+    <section class="ss1-ss4 ms1-ms6 ls1-ls12">
+      <h3 class="gamma heading--main">Supported by:</h3>
+      <ul class="list gallery cf">
 
-    {% for partner in site.partners %}
-      {% if partner.tags == 'supporter' %}
+      {% for partner in site.partners %}
+        {% if partner.tags == 'supporter' %}
 
-      <li class="gallery__item">
-        <a href="{{ site.url }}{{ partner.url }}/">
-          <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="{{ partner.title }}">
-        </a>
-      </li>
-      {% endif %}
-        {% endfor %}
+        <li class="gallery__item">
+          <a href="{{ site.url }}{{ partner.url }}">
+            <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="{{ partner.title }}">
+          </a>
+        </li>
+        {% endif %}
 
-    </ul>
+      {% endfor %}
+
+      </ul>
 
     </section>
 
