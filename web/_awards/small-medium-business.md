@@ -53,6 +53,6 @@ If successful in being shortlisted for the award, a summary of your company will
 
 ## Entry Submission
 
-If you are entering this category, please keep week commencing [TBC] free for face to face judging with our panel. In the event that you are shortlisted for the award, we will commence filming on the [TBC].
+If you are entering this award, please be aware that should you be short-listed, you will need to be available on week commencing Monday, 5 October for face to face judging. Filming will also commence as of this week and continue until the end of October.
 
 **All submissions to be received by 5pm&nbsp;Friday, 1&nbsp;May&nbsp;2015**
