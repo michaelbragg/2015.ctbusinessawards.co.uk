@@ -32,7 +32,7 @@ sitemap:
 
 ## Purpose of Competition
 
-This award is to recognise excellence in one of the regions&rsquo; key sectors of Manufacturing including Innovation and Technology. It is designed to reward not just growth but market leading vision and clear strategy.
+This award recognises excellence in one of the regions&rsquo; key sectors of Manufacturing including Innovation and Technology. It is designed to reward not only growth but market leading vision and clear strategy.
 
 ## Eligibility
 
@@ -57,5 +57,7 @@ All financial information will be treated in the strictest of confidence and wil
 If successful in being shortlisted for the award, a summary of your company will appear in the Coventry Telegraph&rsquo;s coverage, along with the information you provide on this form (except specific financials). Please include any general background information which you would be happy to see in print.
 
 ## Entry Submission
+
+If you are entering this category, please keep week commencing [TBC] free for face to face judging with our panel. In the event that you are shortlisted for the award, we will commence filming on the [TBC].
 
 **All submissions to be received by 5pm&nbsp;Friday, 1&nbsp;May&nbsp;2015**

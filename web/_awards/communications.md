@@ -32,11 +32,11 @@ sitemap:
 
 ## Purpose of Competition
 
-This award is to recognise company&rsquo;s whose primary business is providing communication, marketing, PR or creative industries in the areas of Coventry and Warwickshire.
+This award recognises company&rsquo;s whose primary business is providing communication, marketing, PR or creative industries in the areas of Coventry and Warwickshire.
 
 ## Eligibility
 
-This category award is open to any company with less than 100 full time staff as Friday, 13 January 2015 and/or that began trading after Friday, 1 October 2010 within the Coventry and Warwickshire area. To ensure fairness the sponsor of this award cannot enter this category.
+This category award is open to any company with less than 100 full time staff as of Friday, 13 January 2015 and/or that began trading after Friday, 1 October 2010 within the Coventry and Warwickshire area. To ensure fairness the sponsor of this award cannot enter this category.
 
 ## Judging Criteria
 
@@ -58,5 +58,7 @@ All financial information will be treated in the strictest of confidence and wil
 If successful in being shortlisted for the award, a summary of your company will appear in the Coventry Telegraph&rsquo;s  coverage, along with the information you provide on this form (except specific financials). Please include any general background information which you would be happy to see in print.
 
 ## Entry Submission
+
+If you are entering this category, please keep week commencing [TBC] free for face to face judging with our panel. In the event that you are shortlisted for the award, we will commence filming on the [TBC].
 
 **All submissions to be received by 5pm&nbsp;Friday, 1&nbsp;May&nbsp;2015**
