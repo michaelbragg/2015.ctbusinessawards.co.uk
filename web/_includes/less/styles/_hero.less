@@ -1,0 +1,91 @@
+/**
+ * Hero
+ */
+
+.hero {
+  // Fixes hero image being squashed as small scree sizes
+  //clear: both;
+  border-bottom: 12px solid @brand--gold;
+  background-color: #040301;
+}
+
+.hero__content {
+  height: 200px;
+}
+
+.hero__copy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+  .hero__copy .btn {
+    position: absolute;
+    bottom: -12px;
+  }
+
+  .sponsors_block {
+    position: relative;
+    top: 12px;
+    background-color: #E9E9E9;
+    text-align: center;
+
+  }
+
+@media screen and (min-width: 769px) {
+
+  .hero__content {
+    height: 294px;
+    //border-bottom-color: @brand--green-dark;
+  }
+
+  .hero__copy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+    .hero__copy .btn {
+      position: absolute;
+      bottom: 0;
+      // Overwrite `.btn`'s default margin'
+      margin-bottom: 0;
+      border-top-right-radius: 7.25px;
+      border-top-left-radius: 7.25px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      box-shadow: none;
+    }
+
+  .sponsors_block {
+    top: 0;
+    margin-bottom: 1em;
+    border-radius: 7.25px;
+    background-color: fade(#E9E9E9, 90%);
+
+  }
+
+}
+
+/*  Hero Images  */
+
+.hero--image {
+  background-position: center top;
+  background-size: cover;
+}
+
+.hero--image-fort-dunlop {
+// We use the longhand declaration to stop conflict with `.hero--image`
+  background-image: url(../../media/hero/fort-dunlop.jpg);
+}
+
+.hero--image-winners-01 {
+  background-image: url(../../media/hero/hero_2014-winners-01.jpg);
+}
+
+.hero--image-winners-02 {
+  background-image: url(../../media/hero/hero_2014-winners-02.jpg);
+}
+
