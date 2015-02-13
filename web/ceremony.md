@@ -1,4 +1,6 @@
 ---
+published: false
+
 layout: news
 stylesheet:
 class: page__ceremony

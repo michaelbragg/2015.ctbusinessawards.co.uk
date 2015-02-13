@@ -1,4 +1,6 @@
 ---
+published: false
+
 layout: default
 stylesheet:
 class: page__hosts
