@@ -10,8 +10,8 @@ web/_includes/css/*.css
 ##  Jekyll
 
 _site/
-_beta/
-_2015/
+beta/
+2015/
 
 ##  NodeJS
 
