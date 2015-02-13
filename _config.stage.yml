@@ -5,7 +5,7 @@
 safe: true
 
 source: ./web
-destination: ./_site
+destination: ./_beta
 safe: true
 
 timezone: Europe/London

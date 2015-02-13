@@ -5,7 +5,7 @@
 safe: true
 
 source: ./web
-destination: ./_site
+destination: ./2015
 safe: true
 
 timezone: Europe/London
