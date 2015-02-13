@@ -13,7 +13,7 @@ meta:
   author:
 
 hero:
-  image: hero_2014-winners.jpg
+  image: winners-02
   alt:
   copy: Order Your Photos
   link: http://birminghamcoventrymidlands.newsprints.co.uk/

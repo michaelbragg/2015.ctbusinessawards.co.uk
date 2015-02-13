@@ -21,12 +21,9 @@
 {% if page.hero %}
 <section class="hero wrapper box">
 
-    <div class="hero__content wrapper__sub">
-    {% if page.hero.image %}
-    <img class="image__responsive" src="{{ site.media }}/hero/{{ page.hero.image }}" alt="{{ page.hero.alt }}">
-    {% endif %}
+    <div class="{% if page.hero.image %}hero--image hero--image-{{ page.hero.image }} {% endif %}hero__content wrapper__sub">
     {% if page.hero.copy %}
-    <div class="hero__copy grid ss1-ss4 ls1">
+    <div class="hero__copy ss1-ss4 ms1-ms3 ls1-ls3">
 
       <!--<div class="sponsors_block">
         <a class="outbound" target="_blank" href="#">

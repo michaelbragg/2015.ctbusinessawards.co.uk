@@ -13,7 +13,7 @@ meta:
   author:
 
 hero:
-  image: hero_2014-winners-01.jpg
+  image: winners-02
 
 partners: true
 

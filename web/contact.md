@@ -11,7 +11,7 @@ meta:
   author:
 
 hero:
-  image: fort-dunlop.jpg
+  image: fort-dunlop
 
 
 partners: true
