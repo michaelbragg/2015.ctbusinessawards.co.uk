@@ -14,8 +14,6 @@ meta:
 
 hero:
   image: winners-02
-  copy: "Test Link"
-  link: http://www.example.co.uk
 
 video:
  poster: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png
