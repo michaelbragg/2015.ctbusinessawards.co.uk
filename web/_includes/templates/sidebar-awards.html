@@ -1,0 +1,21 @@
+{% if site.awards %}
+
+<h3 class="gamma heading--main">Categories</h3>
+
+<ul class="categories category__single list">
+
+{% for award in site.awards %}
+  <li class="block category-item">
+    <aside class="block__aside category-item__aside">
+    <a href="{{ site.url }}{{ award.url }}">
+      <span class="icon sprite__category sprite__category--{{ award.icon }}"></span>
+    </a>
+    </aside>
+    <p class="block__content category-item__title">
+      <a href="{{ site.url }}{{ award.url }}">{{ award.title }}</a>
+    </p>
+  </li>
+{% endfor %}
+</ul>
+
+{% endif %}

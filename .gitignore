@@ -2,7 +2,8 @@
 
 ##  Site
 
-src/static/css/*.css
+web/static/css/*.css
+web/_includes/css/*.css
 
 ## Ruby
 
