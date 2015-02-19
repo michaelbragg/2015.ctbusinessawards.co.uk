@@ -2,13 +2,15 @@
 <article class="box separator--horizontal" itemscope itemtype="http://schema.org/Event">
   <h3 class="gamma heading--main">Awards Ceremony</h3>
   {% if site.data.venue.image %}
-  <img class="image image__responsive" src="{{ site.media }}/news/{{ site.data.venue.image }}" alt="">
+  <img class="image image__responsive" src="{{ site.static }}/gui/{{ site.data.venue.image }}" alt="">
   {% endif %}
   <h4 itemprop="startDate" content="{{ site.data.venue.timestamp }}">{{ site.data.venue.date }}</h4>
   <p itemprop="location" itemscope itemtype="http://schema.org/Place">
   <span itemprop="streetAddress"><strong>{{ site.data.venue.name }}</strong><br>
   {{ site.data.venue.address }}</span>, <span itemprop="addressLocality">{{ site.data.venue.city }}</span>. <span itemprop="postalCode">{{ site.data.venue.postcode }}</span></p>
-
+  <!--<p itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+   <a itemprop="url" class="btn btn--primary btn__full" href="{{ site.url }}/tickets/">Book your tickets/table&nbsp;now</a>
+ </p>-->
 </article>
 {% endif %}
 
