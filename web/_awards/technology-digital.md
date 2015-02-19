@@ -30,20 +30,26 @@ sitemap:
   exclude: false
 ---
 
-## Purpose of Competition
-
-tbc
-
 ## Eligibility
 
-tbc
+We will accept nominations from any company meeting the following criteria:
+
+- Are based in the West Midlands region
+- The company&nbsp;s primary business is providing leading digital or creative services
+- The competition is not open to the sponsor of this award
 
 ## Judging Criteria
 
 The judges will pay particular attention to:
 
-- tbc
-
+- Strong financial performance
+- Job creation
+- Investment in equipment and infrastructure
+- Scale and complexity of work commissioned or undertaken
+- Product or service innovation
+- Industry recognition, accreditation, accolades
+- Commitment to the region
+- Client testimonials
 
 ## General
 

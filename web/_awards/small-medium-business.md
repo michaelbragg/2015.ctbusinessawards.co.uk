@@ -30,20 +30,26 @@ sitemap:
   exclude: false
 ---
 
-## Purpose of Competition
-
-tbc
-
 ## Eligibility
 
-tbc
+We will accept nominations from any company meeting the following criteria:
+
+- Based in the West Midlands region
+- Trading for more than 2 years
+- Employs fewer than 100 permanent staff
+- The competition is not open to the sponsor of this award
 
 ## Judging Criteria
 
 The judges will pay particular attention to:
 
-- tbc
-
+- Strong financial performance
+- Job creation
+- Product innovation
+- Industry recognition, accreditation, accolades
+- Winning new contracts/customers
+- Commitment to the region
+- Client testimonial
 
 ## General
 

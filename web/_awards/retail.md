@@ -3,7 +3,7 @@ layout: single-awards
 stylesheet:
 class: page__home not-hero
 
-title: Retail inc Events and Hospitality
+title: Retail inc&nbsp;Events and&nbsp;Hospitality
 
 description:
 
@@ -30,20 +30,26 @@ sitemap:
   exclude: false
 ---
 
-## Purpose of Competition
-
-tbc
-
 ## Eligibility
 
-tbc
+We will accept nominations from any company meeting the following criteria:
+
+- Are based in the West Midlands region
+- The company&rsquo;s primary business is providing marketing, communication and/or work in the creative sector
+- The competition is not open to the sponsor of this award
+
 
 ## Judging Criteria
 
 The judges will pay particular attention to:
 
-- tbc
-
+- Strong financial performance
+- Job creation
+- Scale and complexity of work commissioned or undertaken
+- Product or service innovation
+- Industry recognition, accreditation, accolades
+- Client testimonials
+- Commitment to the region
 
 ## General
 
