@@ -10,7 +10,7 @@ layout: columns-two
 
 {% if site.partners %}
 
-  <section>
+  <!--<section>
 
     <h2>In association with:</h2>
 
@@ -20,9 +20,11 @@ layout: columns-two
       {% if partner.tags == 'associate' %}
         <li class="block partners-item box separator--horizontal">
         <aside class="block__aside partners-item__aside">
+
           <a href="{{ site.url }}{{ partner.url }}">
-            <span class="icon sprite__partner sprite__partner--{{ partner.icon }}"></span>
+            <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="">
           </a>
+
         </aside>
         <articles class="block__content partners-item__content">
           <h3>{{ partner.title }}</h3>
@@ -34,7 +36,7 @@ layout: columns-two
 
     {% endfor %}
 
-    </ul>
+    </ul>-->
 
     <h2>Supported by:</h2>
 
@@ -46,7 +48,7 @@ layout: columns-two
         <li class="block partners-item box separator--horizontal">
         <aside class="block__aside partners-item__aside">
           <a href="{{ site.url }}{{ partner.url }}">
-            <span class="icon sprite__partner sprite__partner--{{ partner.icon }}"></span>
+            <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="">
           </a>
         </aside>
         <articles class="block__content partners-item__content">

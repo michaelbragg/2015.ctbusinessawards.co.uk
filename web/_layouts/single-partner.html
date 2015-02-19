@@ -10,6 +10,8 @@ layout: master
 
       {{ content }}
 
+      {% if page.website %}<p><a href="{{ page.website }}" rel="nofollow">{{ page.title }}</a></p>{% endif %}
+
     </article>
 
     <aside class="content__aside ss1-ss4 ms1-ms6 ls9-ls12">
