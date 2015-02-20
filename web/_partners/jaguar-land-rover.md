@@ -8,7 +8,7 @@ tags: 'supporter'
 website: http://www.jaguarlandrover.com
 
 hero:
-  image: winners-02
+  image: ceremony-01
 
 images:
  logo: logo_jaguar-land-rover.png

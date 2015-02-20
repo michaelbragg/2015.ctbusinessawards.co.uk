@@ -11,7 +11,7 @@ meta:
   author:
 
 hero:
-  image: winners-02
+  image: winners-03
 
 partners: true
 

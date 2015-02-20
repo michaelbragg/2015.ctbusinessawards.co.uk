@@ -13,7 +13,7 @@ meta:
   author:
 
 hero:
-  image: winners-02
+  image: ceremony-01
 
 partners: true
 
