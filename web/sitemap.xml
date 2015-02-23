@@ -55,4 +55,76 @@ sitemap:
     </url>
     {% endunless %}
   {% endfor %}
+  {% for award in site.awards %}
+    {% unless award.sitemap.exclude == true %}
+    <url>
+      <loc>{{ site.url }}{{ award.url | remove: "index.html" }}</loc>
+      {% if award.sitemap.lastmod %}
+        <lastmod>{{ award.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif award.date %}
+        <lastmod>{{ award.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if award.sitemap.changefreq %}
+        <changefreq>{{ award.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if award.sitemap.priority %}
+        <priority>{{ award.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.3</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+  {% for partner in site.partners %}
+    {% unless partner.sitemap.exclude == true %}
+    <url>
+      <loc>{{ site.url }}{{ partner.url | remove: "index.html" }}</loc>
+      {% if partner.sitemap.lastmod %}
+        <lastmod>{{ partner.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif partner.date %}
+        <lastmod>{{ partner.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if partner.sitemap.changefreq %}
+        <changefreq>{{ partner.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if partner.sitemap.priority %}
+        <priority>{{ partner.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.3</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+  {% for judge in site.judges %}
+    {% unless judge.sitemap.exclude == true %}
+    <url>
+      <loc>{{ site.url }}{{ judge.url | remove: "index.html" }}</loc>
+      {% if judge.sitemap.lastmod %}
+        <lastmod>{{ judge.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif judge.date %}
+        <lastmod>{{ judge.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if judge.sitemap.changefreq %}
+        <changefreq>{{ judge.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if judge.sitemap.priority %}
+        <priority>{{ judge.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.3</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
 </urlset>
