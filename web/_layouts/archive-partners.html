@@ -1,0 +1,69 @@
+---
+layout: columns-two
+---
+
+<article>
+
+  <h1 class="gamma heading--main">{{ page.title }}</h1>
+
+  {{ content }}
+
+{% if site.partners %}
+
+  <!--<section>
+
+    <h2>In association with:</h2>
+
+    <ul class="partners list">
+    {% for partner in site.partners %}
+
+      {% if partner.tags == 'associate' %}
+        <li class="block partners-item box separator--horizontal">
+        <aside class="block__aside partners-item__aside">
+
+          <a href="{{ site.url }}{{ partner.url }}">
+            <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="">
+          </a>
+
+        </aside>
+        <articles class="block__content partners-item__content">
+          <h3>{{ partner.title }}</h3>
+          <p>{{ partner.description }}</p>
+          <p><a href="{{ site.url }}{{ partner.url }}">View Profile</a> | <a target="_blank" class="outbound link" href="{{ partner.website }}/" rel="nofollow">View Website</a></p>
+        </articles>
+      </li>
+      {% endif %}
+
+    {% endfor %}
+
+    </ul>-->
+
+    <h2>Supported by:</h2>
+
+    <ul class="partners list">
+    {% for partner in site.partners %}
+
+      {% if partner.tags == 'supporter' %}
+
+        <li class="block partners-item box separator--horizontal">
+        <aside class="block__aside partners-item__aside">
+          <a href="{{ site.url }}{{ partner.url }}">
+            <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="">
+          </a>
+        </aside>
+        <articles class="block__content partners-item__content">
+          <h3>{{ partner.title }}</h3>
+          <p>{{ partner.description }}</p>
+          <p><a href="{{ site.url }}{{ partner.url }}">View Profile</a> | <a target="_blank" class="outbound link" href="{{ partner.website }}/" rel="nofollow">View Website</a></p>
+        </articles>
+      </li>
+      {% endif %}
+
+    {% endfor %}
+    </ul>
+
+  {% endif %}
+
+  </section>
+
+</article>

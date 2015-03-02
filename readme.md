@@ -1,8 +1,8 @@
-# Coventry Telegraph Business Awards 2014
+# Coventry Telegraph Business Awards 2015
 [http://ctbusinessawards.co.uk/2015/](http://www.ctbusinessawards.co.uk/2015/)
 
 ## Description
-Website to support the 2015 Coventry Telegraph Business Awards
+Website built upon Jekyll to support the 2015 Coventry Telegraph Business Awards
 
 ## Dependencies
 
@@ -60,13 +60,16 @@ During the Alpha/Beta stages, due to constant changes, documentation will be mai
 |                           development of this project
 |- _site                 –  compiled development files (not committed)
 |- web
+|  |- _awards            –  markdown content for each award
+|  |- _data              –  content to be used across the site
 |  |- _includes          –  partial snippets of code to be used
 |  |                        in layouts
 |  |- _layouts           –  page layouts
+|  |- _partners          –  markdown content for each partner
 |  |- _posts             -  markdown files of news posts
 |  |- media              -
 |  |- static             -
-|  |- {**/*.txt,html,md} -  files for website
+|  |- {**/*.txt,html,md} -  content for website pages
 |- _config.yml           -  Jekyll config file
 |- gruntfile.js
 |- package.json

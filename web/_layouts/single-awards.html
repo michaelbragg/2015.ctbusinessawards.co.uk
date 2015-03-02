@@ -1,0 +1,30 @@
+---
+layout: master
+---
+
+<main id="content" class="box__large content__main wrapper cf">
+  <div class="wrapper__sub">
+    <article class="content__main ss1-ss4 ms1-ms6 ls1-ls8 separator">
+
+      <h1 class="gamma heading--main">{{ page.title }}</h1>
+
+      {% if page.supporter %}
+      <img class="image image__responsive" src="{{ site.media }}/partners/{{ page.supporter.logo }}" alt="{{ page.supporter.name }}">
+      {% endif %}
+
+      {{ content }}
+
+    </article>
+
+    <aside class="content__aside ss1-ss4 ms1-ms6 ls9-ls12">
+      {% include templates/sidebar-awards.html %}
+    <aside>
+
+  </div>
+</main>
+
+
+
+
+
+

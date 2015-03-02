@@ -1,0 +1,29 @@
+---
+layout: columns-two
+---
+
+<article>
+
+  <h1 class="gamma heading--main">{{ page.title }}</h1>
+
+  {{ content }}
+
+  {% if site.awards %}
+
+  <ul class="categories categories__columns list cf">
+    {% for award in site.awards %}
+     <li class="block category-item">
+      <aside class="block__aside category-item__aside">
+      <a href="{{ site.url }}{{ award.url }}">
+        <span class="icon sprite__category sprite__category--{{ award.images.icon }}"></span>
+      </a>
+      </aside>
+      <p class="block__content category-item__title">
+        <a href="{{ site.url }}{{ award.url }}">{{ award.title }}</a>
+      </p>
+  </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+</article>

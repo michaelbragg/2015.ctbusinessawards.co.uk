@@ -13,6 +13,19 @@ encoding: "utf-8"
 
 future: false
 
+## Collections
+
+collections:
+  awards:
+    output: true
+    permalink: /categories/:path/
+  partners:
+    output: true
+    permalink: /partners/:path/
+  judges:
+    output: true
+    permalink: /judges/:path/
+
 ## Conversion
 
 markdown: kramdown
@@ -26,11 +39,12 @@ relative_permalinks: false
 
 # Site Config
 
-name: Coventry Telegrphy Business Awards 2014
+name: Coventry Telegrphy Business Awards 2015
 
-url:
-static: /static
-media: /media
+url: //localhost/ctbusinessawards
+static: //localhost/ctbusinessawards/static
+media: //localhost/ctbusinessawards/media
+api: //localhost/ctbusinessawards/api
 
 ## Analytics
 

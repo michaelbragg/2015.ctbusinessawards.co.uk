@@ -1,0 +1,77 @@
+<!--  Meta Data  -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+{% if page.meta.keywords %}
+<meta name="keywords" content="{% for keyword in page.meta.keywords %}
+{{ keyword }}, {% endfor %}">{% elsif site.meta.keywords %}<meta name="keywords" content="{% for keyword in site.meta.keywords %}{{ keyword }}, {% endfor %}">{% endif %}
+{% if page.meta.description %}<meta name="description" content="{{ page.meta.description }}">{% elsif site.meta.description %}<meta name="description" content="{{ site.meta.description }}">{% endif %}
+{% if page.meta.author %}<meta name="author" content="{{ page.meta.author }}" />{% endif %}
+
+<!--  Open Graph  -->
+<meta content="{{ site.title }}" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+  <meta content="{{ page.meta.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.meta.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+{% if page.image %}
+  <meta content="{{ site.url }}/assets/img/posts/{{ page.image }}" property="og:image">
+{% elsif page.images.preview %}
+<meta content="{{ site.media }}/news/{{ page.images.preview }}" property="og:image">
+{% else %}
+  <meta content="{{ site.static }}/gui/logo_business-awards-2014_birminghamPost.png" property="og:image">
+{% endif %}
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+  {% endfor %}
+{% endif %}
+{% if page.tags %}
+  {% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+  {% endfor %}
+{% endif %}
+
+<!--  Twitter Cards  -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@birminghampost">
+<meta name="twitter:creator" content="@birminghampost">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.meta.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.meta.description }}">
+{% endif %}
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/path/to/image/{{ page.image }}">
+{% elsif page.images.preview %}
+  <meta name="twitter:image:src" content="{{ site.media }}/news/{{ page.images.preview }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.static }}/gui/logo_business-awards-2014_birminghamPost.png">
+{% endif %}
+
