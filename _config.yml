@@ -41,9 +41,10 @@ relative_permalinks: false
 
 name: Coventry Telegrphy Business Awards 2015
 
-url:
-static: /static
-media: /media
+url: //localhost/ctbusinessawards
+static: //localhost/ctbusinessawards/static
+media: //localhost/ctbusinessawards/media
+api: //localhost/ctbusinessawards/api
 
 ## Analytics
 
