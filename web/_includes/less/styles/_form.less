@@ -8,6 +8,12 @@ form {
   padding-left: 0.5em;
 }
 
+fieldset {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+}
+
 label {
   display: block;
   margin-bottom: 0.5em;
@@ -43,6 +49,9 @@ input[type=url],
 input[type=password],
 textarea {
   padding: 0.5em;
+  // Add padding to align text with paragraphs (-1px due to the border)
+  padding-right: 13.5px;
+  padding-left: 13.5px;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #eee;
@@ -58,6 +67,11 @@ select:focus {
   outline: 0;
   border-color: @brand--blue;
 }
+
+textarea {
+  height: 150px;
+}
+
 
 /*select {
   -webkit-appearance: none;
@@ -79,13 +93,14 @@ select:focus {
 
 label.error {
   font-weight: normal;
+  color: @brand--red;
 }
 
 input.error,
 input.error:focus,
 select.error,
 textarea.error {
-  //border-color: @brand--red-dark;
+border-color: @brand--red-dark;
 }
 
 input.valid,

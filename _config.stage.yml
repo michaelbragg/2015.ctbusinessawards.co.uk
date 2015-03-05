@@ -5,7 +5,7 @@
 safe: true
 
 source: ./web
-destination: ./_beta
+destination: ./beta
 safe: true
 
 timezone: Europe/London
@@ -41,9 +41,10 @@ relative_permalinks: false
 
 name: Coventry Telegrphy Business Awards 2015
 
-url: http://www.ctbusinessawards.co.uk/beta
-static: http://www.ctbusinessawards.co.uk/beta/static
-media: http://www.ctbusinessawards.co.uk/beta/media
+url: //www.ctbusinessawards.co.uk/beta
+static: //www.ctbusinessawards.co.uk/beta/static
+media: //www.ctbusinessawards.co.uk/beta/media
+api: //www.ctbusinessawards.co.uk/api
 
 ## Analytics
 
