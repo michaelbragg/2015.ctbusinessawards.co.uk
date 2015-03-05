@@ -207,16 +207,19 @@ module.exports = function(grunt) {
         renameFiles: true
       },
       image: {
-        src: ['<%= grunt.config.get("dest") %>/media/**/*.{png,jpg,gif,svg}','<%= grunt.config.get("dest") %>/static/**/*.{png,jpg,gif,svg}'],
-        dest: '<%= grunt.config.get("dest") %>/**/*.{html,css}',
+        src: [
+          '<%= grunt.config.get("dest") %>/media/**/*.{png,jpg,gif,svg}'
+         ,'<%= grunt.config.get("dest") %>/static/**/*.{png,jpg,gif,svg}'
+       ],
+        dest: '<%= grunt.config.get("dest") %>/**/*.{html,php,css}',
       },
       css: {
         src: ['<%= grunt.config.get("dest") %>/static/css/**/*.css'],
-        dest: '<%= grunt.config.get("dest") %>/**/*.html',
+        dest: '<%= grunt.config.get("dest") %>/**/*.{html,php}',
       },
       js: {
         src: ['<%= grunt.config.get("dest") %>/static/js/**/*.js'],
-        dest: '<%= grunt.config.get("dest") %>/**/*.html',
+        dest: '<%= grunt.config.get("dest") %>/**/*.{html,php}',
       }
     }
 
