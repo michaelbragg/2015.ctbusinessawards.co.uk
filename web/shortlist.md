@@ -14,6 +14,8 @@ meta:
 
 hero:
   image: winners-02
+  copy: Nominate Now
+  link: http://www.ctbusinessawards.co.uk/2015/nominate/
 
 partners: true
 
