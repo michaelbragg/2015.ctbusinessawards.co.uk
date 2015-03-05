@@ -44,10 +44,12 @@ name: Coventry Telegrphy Business Awards 2015
 url: http://www.ctbusinessawards.co.uk/2015
 static: http://www.ctbusinessawards.co.uk/2015/static
 media: http://www.ctbusinessawards.co.uk/2015/media
+api: //www.ctbusinessawards.co.uk/api
 
 ## Analytics
 
-google_analytics_id:
+google_analytics_id: UA-9406284-4
+google_tag_manager_id: GTM-WS2DJ8
 
 ## Meta
 
