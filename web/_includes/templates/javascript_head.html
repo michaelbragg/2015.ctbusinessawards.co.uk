@@ -15,8 +15,6 @@ var tm = tm || {};
 tm.test_svg = tm.test_svg || {};
 tm.test_svg = root.className && new RegExp("(\\s|^)" + 'svg' + "(\\s|$)").test(root.className);
 
-console.log(tm.test_svg);
-
 /*! SVG Fallback for unsupported browsers */
 tm.svg_fallback = tm.svg_fallback || {};
 tm.svg_fallback.init = function() {
@@ -25,7 +23,7 @@ var imgSVG = document.getElementsByTagName('img');
 for(var i = 0; i < imgSVG.length; i++) {
   if( imgSVG[i].src.match( /.*\.svg$/ ) ){
     imgSVG[i].src = imgSVG[i].src.slice(0, -3) + 'png';
-      console.log(imgSVG[i].src);
+      //console.log(imgSVG[i].src);
   }
 }
 }
