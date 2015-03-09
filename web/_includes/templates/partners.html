@@ -3,13 +3,20 @@
 
   <div class="wrapper__sub">
 
-    <!--
+
     <section class="grid ss1-ss4 ms1-6 ls1-ls4">
-    <h3 class="gamma heading--main">In association with:</h3>
 
     {% for partner in site.partners %}
 
-      {% if partner.tags == 'associate' %}
+      {% if partner.tags == 'association' %}
+      <h3 class="gamma heading--main">In association with:</h3>
+         <a href="{{ site.url }}{{ partner.url }}">
+            <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="{{ partner.title }}">
+          </a>
+      {% endif %}
+
+      {% if partner.tags == 'partnership' %}
+      <h3 class="gamma heading--main">In partnership with:</h3>
         <a href="{{ site.url }}{{ partner.url }}">
             <img class="image__responsive" src="{{ site.media }}/partners/{{ partner.images.logo }}" alt="{{ partner.title }}">
           </a>
@@ -18,9 +25,8 @@
     {% endfor %}
 
     </section>
-    -->
 
-    <section class="ss1-ss4 ms1-ms6 ls1-ls12">
+    <section class="ss1-ss4 ms1-ms6 ls5-ls12">
       <h3 class="gamma heading--main">Supported by:</h3>
       <ul class="list gallery cf">
 
