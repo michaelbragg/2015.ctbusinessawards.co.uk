@@ -35,7 +35,7 @@ sitemap:
 We will accept nominations from any company meeting the following criteria:
 
 - Are based in the West Midlands region
-- The company&nbsp;s primary business is providing leading digital or creative services
+- The company&rsquo;s primary business is providing leading digital or creative services
 - The competition is not open to the sponsor of this award
 
 ## Judging Criteria
@@ -59,7 +59,7 @@ If successful in being shortlisted for the award, a summary of your company will
 
 ## Entry Submission
 
-If you are entering this award, please be aware that should you be short-listed, you will need to be available on week commencing Monday, 5 October for face to face judging. Filming will also commence as of this week and continue until the end of October.
+If you are entering this award, please be aware that should you be short-listed, you will need to be available on week commencing Monday, 5 May for face to face judging. Filming will also commence as of this week and continue until the end of May.
 
 **All submissions to be received by 5pm&nbsp;Friday, 1&nbsp;May&nbsp;2015**
 
