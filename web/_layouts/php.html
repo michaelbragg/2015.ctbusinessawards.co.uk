@@ -1,0 +1,56 @@
+---
+class: not-hero
+---
+{% raw  %}<?php include 'router.php' ?>{% endraw %}
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en-GB" class="lt-ie9"  {% if page.id %}itemscope itemtype="http://schema.org/Article"{% endif%}> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-GB" {% if page.id %}itemscope itemtype="http://schema.org/Article"{% endif%}> <!--<![endif]-->
+
+  <head>
+
+    {% include templates/prefetch.html %}
+    {% include templates/meta.html %}
+
+    <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.name }}</title>
+
+    {% include templates/favicon.html %}
+    {% include templates/css.html %}
+    {% include templates/javascript_head.html %}
+
+  </head>
+
+  <body {% if page.class %}class="{% for class in page.class %}{{ class }} {% endfor %}"{% endif %}>
+
+  {% if site.google_tag_manager_id  %}
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ site.google_tag_manager_id }}"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ site.google_tag_manager_id }}');</script>
+  <!-- End Google Tag Manager -->
+{% endif %}
+
+    <a href="#content" class="visuallyhidden focusable" title="Skip to Site Content" accesskey="s" nofollow>Skip to page content</a>
+
+
+    {% include templates/header.html %}
+
+    <main id="content" class="content__main wrapper cf">
+      <div class="wrapper__sub">
+        <article class="ss1-ss4 ms1-ms6 ls1-ls12 box__large">
+          {{ content }}
+        </article>
+      </div>
+    </main>
+
+    {% include templates/footer.html %}
+
+
+  {% include templates/javascript_body.html %}
+
+</body>
+</html>
