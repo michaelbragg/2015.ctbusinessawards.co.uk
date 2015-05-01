@@ -21,4 +21,4 @@ sitemap:
   exclude: false
 ---
 
-<p>Nominations have now closed. Stay tuned for shortlist to be announced.</p>
+<p>Nominations have now closed. Stay tuned for the shortlist to be announced.</p>
