@@ -1,10 +1,10 @@
 ---
-layout: php
+layout: news
 stylesheet:
-javascript: nominate
+javascript:
 class: page__nominate not-hero
 
-title: Nominations for the 2015 Coventry Telegraph Business Awards
+title: Nominations
 permalink: nominate/index.php
 meta:
   keywords:
@@ -15,10 +15,10 @@ hero: false
 partners: true
 
 sitemap:
-  lastmod: 2015-02-24
+  lastmod: 2015-05-06
   priority: 0.7
   changefreq: weekly
   exclude: false
 ---
 
-{% raw  %}<?php include HOME . '/nominate/' . $page; ?>{% endraw %}
+<p>Nominations have now closed. Stay tuned for the shortlist to be announced.</p>
