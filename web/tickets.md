@@ -24,9 +24,9 @@ sitemap:
 
 ---
 
-## Single Ticket £75<small>+VAT</small>
+## Single Ticket £75 <small>+VAT</small>
 
-## Table Ticket £750<small>+VAT</small>
+## Table Ticket £750 <small>+VAT</small>
 
 To book tickets or a table please return the form below with your remittance to Millie&nbsp;Walker, (Ref: TableCTBA), Trinity&nbsp;Mirror&nbsp;Midlands, Floor&nbsp;6, Fort&nbsp;Dunlop, Fort&nbsp;Parkway, Birmingham, B24&nbsp;9FF.
 
@@ -34,4 +34,4 @@ To book tickets or a table please return the form below with your remittance to 
 
 <a class="btn" href="{{ site.media }}/documents/pre-roder-wine-list-general-events-2015.pdf">Download Wine Pre-order Form</a>
 
-£750+VAT for a table (includes 1x bottle of red wine, 1x bottle of white wine and a bucket of beer).
+<small>£750 +VAT for a table (includes 1x bottle of red wine, 1x bottle of white wine and a bucket of beer).</small>
