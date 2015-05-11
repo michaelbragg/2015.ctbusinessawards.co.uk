@@ -14,8 +14,8 @@ meta:
 
 hero:
   image: ceremony-01
-  copy: Nominate Now
-  link: http://www.ctbusinessawards.co.uk/2015/nominate/
+  copy: Book Your Table
+  link: http://www.ctbusinessawards.co.uk/2015/tickets/
 
 partners: true
 
