@@ -1,27 +1,35 @@
 ---
-layout: default
+layout: news
 stylesheet:
-class: page__tickets not-hero
+class: page__tickets
 
 
-title: Book a Table
+title: Tickets
 permalink: tickets/
 meta:
   keywords:
   description:
   author:
 
-hero: false
+hero:
+  image: ceremony-01
+
 partners: true
 
 sitemap:
-  lastmod: 2014-11-27
+  lastmod: 2015-05-11
   priority: 0.8
   changefreq: monthly
   exclude: false
 
 ---
 
-<h4 class="heading--main">Book A Table</h4>
+## Single Ticket £75<small>+VAT</small>
 
-<p>Table bookings are unavailable. Stay tuned for details.</p>
+## Table Ticket £750<small>+VAT</small>
+
+To book tickets or a table please return the form below with your remittance to Millie&nbsp;Walker, (Ref: TableCBTA), Trinity&nbsp;Mirror&nbsp;Midlands, Floor&nbsp;6, Fort&nbsp;Dunlop, Fort&nbsp;Parkway, Birmingham, B24&nbsp;9FF.
+
+<a class="btn btn__large btn--primary" href="{{ site.media }}/documents/table-booking-form.pdf">Download Booking Form</a>
+
+<a class="btn" href="{{ site.media }}/documents/pre-roder-wine-list-general-events-2015.pdf">Download Wine Pre-order Form</a>

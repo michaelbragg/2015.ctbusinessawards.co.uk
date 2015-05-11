@@ -14,8 +14,8 @@ meta:
 
 hero:
   image: winners-02
-  copy: Nominate Now
-  link: http://www.ctbusinessawards.co.uk/2015/nominate/
+  copy: Book Your Table
+  link: http://www.ctbusinessawards.co.uk/2015/tickets/
 
 video:
  poster: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png
