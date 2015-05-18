@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: archive-shortlist
 stylesheet:
 class: page__shortlist
-
-published: false
 
 title: 2015 Shortlist
 permalink: shortlist/
@@ -25,6 +23,3 @@ sitemap:
   changefreq: weekly
   exclude: true
 ---
-
-
-# Shortlist
