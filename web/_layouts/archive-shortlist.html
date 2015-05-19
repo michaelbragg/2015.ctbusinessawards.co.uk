@@ -1,0 +1,30 @@
+---
+layout: columns-two
+---
+
+<article>
+
+  <h1 class="gamma heading--main">{{ page.title }}</h1>
+
+  {{ content }}
+
+    {% if site.data.shortlist %}
+      <ul class="list">
+        {% for category in site.data.shortlist %}
+          <li class="box">
+          <h4>{{ category.awards.name }}</h4>
+          {% for company in category.awards.shortlist %}
+          <ul>
+            <li>
+            {{ company }}
+            </li>
+          </ul>
+          {% endfor %}
+          </li>
+        {% endfor %}
+
+      </ul>
+      {% endif %}
+
+
+</article>
