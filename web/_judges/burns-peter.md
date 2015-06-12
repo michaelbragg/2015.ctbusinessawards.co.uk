@@ -3,7 +3,7 @@ layout: single-judges
 stylesheet:
 class: page__partners
 
-permalink: judges/peter-burns
+permalink: judges/peter-burns/
 
 title: Peter Burns MBE
 

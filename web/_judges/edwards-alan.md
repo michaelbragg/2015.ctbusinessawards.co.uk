@@ -3,7 +3,7 @@ layout: single-judges
 stylesheet:
 class: page__partners
 
-permalink: judges/alen-edwards
+permalink: judges/alen-edwards/
 
 title: Alan Edwards
 

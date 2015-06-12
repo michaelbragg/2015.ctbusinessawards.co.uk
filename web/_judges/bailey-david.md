@@ -3,7 +3,7 @@ layout: single-judges
 stylesheet:
 class: page__partners
 
-permalink: judges/david-bailey
+permalink: judges/david-bailey/
 
 title: David Bailey
 

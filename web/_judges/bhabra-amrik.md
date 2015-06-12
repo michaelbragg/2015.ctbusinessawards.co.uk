@@ -3,7 +3,7 @@ layout: single-judges
 stylesheet:
 class: page__partners
 
-permalink: judges/amrik-bhabra
+permalink: judges/amrik-bhabra/
 
 title: Amrik Bhabra
 

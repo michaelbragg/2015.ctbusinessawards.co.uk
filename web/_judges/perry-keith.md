@@ -3,7 +3,7 @@ layout: single-judges
 stylesheet:
 class: page__partners
 
-permalink: judges/keith-perry
+permalink: judges/keith-perry/
 
 title: Keith Perry
 
