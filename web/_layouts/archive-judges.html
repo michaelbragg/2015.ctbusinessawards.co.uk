@@ -10,9 +10,18 @@ layout: columns-two
 
   {% if site.judges %}
 
-  <ul class="categories categories__columns list">
-    {% for award in site.judges %}
-    {{ judge.title }}
+  <ul class="judges judges__columns list">
+    {% for judge in site.judges %}
+
+      <li class="block judges-item box">
+        <a href="{{ site.url }}{{ judge.url }}">
+          <figure>
+            <img class="image image__responsive" src="{{ site.media }}/judges/{{ judge.images.profile }}" alt="Profile photo of {{ judge.title }}">
+            <figcaption class="gamma judge__name">{{ judge.title }}</figcaption>
+          </figure>
+        </a>
+      </li>
+
     {% endfor %}
   </ul>
   {% endif %}

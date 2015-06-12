@@ -1,6 +1,4 @@
 ---
-published: false
-
 layout: archive-judges
 stylesheet:
 class: page__judges
@@ -26,6 +24,4 @@ sitemap:
   exclude:
 ---
 
-## This year&rsquo;s panel will...
-
-
+The 2015 Coventry Telegraph Business Awards judges are:
