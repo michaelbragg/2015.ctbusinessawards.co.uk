@@ -8,6 +8,10 @@ layout: master
 
       <h1 class="gamma heading--main">{{ page.title }}</h1>
 
+      {% if page.images.logo %}
+      <img class="image__responsive alignright sizemedium" src="{{ site.media }}/partners/{{ page.images.logo }}" alt="{{ page.supporter.title }}">
+      {% endif %}
+
       {{ content }}
 
       {% if page.website %}<p><a href="{{ page.website }}" rel="nofollow">{{ page.title }}</a></p>{% endif %}
