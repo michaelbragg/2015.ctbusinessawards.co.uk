@@ -35,3 +35,7 @@ To book tickets or a table please return the form below with your remittance to 
 <a class="btn" href="{{ site.media }}/documents/pre-order-wine-list-general-events-2015.pdf">Download Wine Pre-order Form</a>
 
 <small>£750 +VAT for a table (includes 1x bottle of red wine, 1x bottle of white wine and a bucket of beer).</small>
+
+<a class="btn" href="{{ site.media }}/documents/ctba_table_plan_2015.pdf">View Our Event Table Plan</a>
+
+<small>Please note: Table plan is correct at publication time and subject to change.</small>
