@@ -12,8 +12,8 @@ meta:
 
 hero:
   image: partner-01
-  copy: Book Your Table
-  link: http://www.ctbusinessawards.co.uk/2015/tickets/
+  copy: Order Your Photos
+  link: http://birminghamcoventrymidlands.newsprints.co.uk/
 
 partners: true
 

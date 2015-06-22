@@ -13,6 +13,8 @@ meta:
 
 hero:
   image: ceremony-01
+  copy: Order Your Photos
+  link: http://birminghamcoventrymidlands.newsprints.co.uk/
 
 partners: true
 
@@ -30,12 +32,6 @@ sitemap:
 
 To book tickets or a table please return the form below with your remittance to Millie&nbsp;Walker, (Ref: TableCTBA), Trinity&nbsp;Mirror&nbsp;Midlands, Floor&nbsp;6, Fort&nbsp;Dunlop, Fort&nbsp;Parkway, Birmingham, B24&nbsp;9FF.
 
-<a class="btn btn__large btn--primary" href="{{ site.media }}/documents/table-booking-form.pdf">Download Booking Form</a>
-
-<a class="btn" href="{{ site.media }}/documents/pre-order-wine-list-general-events-2015.pdf">Download Wine Pre-order Form</a>
+**Ticket bookings for this event are now closed**
 
 <small>£750 +VAT for a table (includes 1x bottle of red wine, 1x bottle of white wine and a bucket of beer).</small>
-
-<a class="btn" href="{{ site.media }}/documents/ctba_table_plan_2015.pdf">View Our Event Table Plan</a>
-
-<small>Please note: Table plan is correct at publication time and subject to change.</small>

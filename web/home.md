@@ -14,8 +14,8 @@ meta:
 
 hero:
   image: winners-02
-  copy: Book Your Table
-  link: http://www.ctbusinessawards.co.uk/2015/tickets/
+  copy: Order Your Photos
+  link: http://birminghamcoventrymidlands.newsprints.co.uk/
 
 video:
  poster: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png
