@@ -16,13 +16,13 @@ layout: columns-two
 
           <h4>Winner:</h4>
 
-          {% for winner in category.awards.winners %}
           <ul class="box list">
+          {% for winner in category.awards.winners %}
             <li>
             <strong>{{ winner }}</strong>
             </li>
-          </ul>
           {% endfor %}
+          </ul>
 
           {% if category.awards.shortlist %}
 
