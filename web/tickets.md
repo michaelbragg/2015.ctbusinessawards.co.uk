@@ -3,7 +3,6 @@ layout: news
 stylesheet:
 class: page__tickets
 
-
 title: Tickets
 permalink: tickets/
 meta:
