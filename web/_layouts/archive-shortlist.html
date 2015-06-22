@@ -8,11 +8,11 @@ layout: columns-two
 
   {{ content }}
 
-    {% if site.data.shortlist %}
+    {% if site.data.results %}
       <ul class="list">
         {% for category in site.data.shortlist %}
           <li class="box">
-          <h4>{{ category.awards.name }}</h4>
+          <h3>{{ category.awards.name }}</h3>
           {% for company in category.awards.shortlist %}
           <ul>
             <li>

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: archive-winners
 stylesheet:
 class: page__winners
-
-published: false
 
 title: 2015 Winners
 permalink: winners/
@@ -21,11 +19,9 @@ hero:
 partners: true
 
 sitemap:
-  lastmod: 2014-11-27
+  lastmod: 2015-06-19
   priority: 0.7
   changefreq: weekly
   exclude: true
 ---
 
-
-# Winners

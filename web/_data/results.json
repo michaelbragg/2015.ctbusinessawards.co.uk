@@ -1,11 +1,30 @@
 [
   {
     "awards": {
+      "name": "Company of the Year",
+      "winners": [
+        "O&rsquo;Brien Contractors"
+      ]
+    }
+  },
+  {
+    "awards": {
+      "name": "Lifetime Achievement",
+      "winners": [
+        "Lord Bhattacharyya"
+      ]
+    }
+  },
+  {
+    "awards": {
       "name": "Business Start Up and Entrepreneur",
       "shortlist": [
         "Arquebus Solutions",
         "Imperial Candles",
         "Midlands Professional Development"
+      ],
+      "winners": [
+        "Imperial Candles"
       ]
     }
   },
@@ -15,6 +34,9 @@
       "shortlist": [
         "DSA",
         "Leader Communications Limited"
+      ],
+      "winners": [
+        "DSA"
       ]
     }
   },
@@ -26,6 +48,9 @@
       "Piltec Rubber & Plastics Ltd",
       "Potters Poultry",
       "Ultraseal International"
+      ],
+      "winners": [
+        "Pashley Cycles"
       ]
     }
   },
@@ -37,6 +62,9 @@
       "Contechs Ltd",
       "Edgetech UK Ltd",
       "NSL Automotive Components Ltd"
+      ],
+      "winners": [
+        "Edgetech UK Ltd"
       ]
     }
   },
@@ -47,6 +75,9 @@
       "James Holden - Leader Communications Limited",
       "Julia Senah - Almond Care",
       "Rav Bagri - Santander Corporate & Commercial"
+      ],
+      "winners": [
+        "James Holden - Leader Communications Limited"
       ]
     }
   },
@@ -57,6 +88,9 @@
       "Contechs Ltd",
       "Ashornes Hill Management College",
       "Pertemps"
+      ],
+      "winners": [
+        "Contechs Ltd"
       ]
     }
   },
@@ -67,6 +101,9 @@
       "Almond Care",
       "Prime Accountants Group",
       "Trinity Accountants Limited"
+      ],
+      "winners": [
+        "Almond Care"
       ]
     }
   },
@@ -76,6 +113,9 @@
       "shortlist": [
       "O&rsquo;Brien Contractors",
       "Assured Property Group"
+      ],
+      "winners": [
+        "O&rsquo;Brien Contractors"
       ]
     }
   },
@@ -85,6 +125,9 @@
       "shortlist": [
       "Coombe Abbey Hotel",
       "Love Lucia&rsquo;s Parties and Corporate Events"
+      ],
+      "winners": [
+        "Coombe Abbey Hotel"
       ]
     }
   },
@@ -96,6 +139,9 @@
       "Aeros Holdings T/A Aeros Flight Training",
       "Edgetech UK Ltd",
       "NSL Automotive Components Ltd"
+      ],
+      "winners": [
+        "NSL Automotive Components Ltd"
       ]
     }
   },
@@ -106,6 +152,10 @@
       "Nettitude",
       "RDM Group",
       "RNF Digital Innovation"
+      ],
+      "winners": [
+        "Nettitude",
+        "RDM Group"
       ]
     }
   }

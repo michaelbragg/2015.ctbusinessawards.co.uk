@@ -1,0 +1,45 @@
+---
+layout: columns-two
+---
+
+<article>
+
+  <h1 class="gamma heading--main">{{ page.title }}</h1>
+
+  {{ content }}
+
+    {% if site.data.results %}
+      <ul class="list">
+        {% for category in site.data.results %}
+          <li class="box">
+          <h3>{{ category.awards.name }}</h3>
+
+          <h4>Winner:</h4>
+
+          {% for winner in category.awards.winners %}
+          <ul class="box list">
+            <li>
+            <strong>{{ winner }}</strong>
+            </li>
+          </ul>
+          {% endfor %}
+
+          {% if category.awards.shortlist %}
+
+            <h4>Shortlisted:</h4>
+            <ul class="box">
+            {% for company in category.awards.shortlist %}
+              <li>
+              {{ company }}
+              </li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+
+          </li>
+        {% endfor %}
+
+      </ul>
+      {% endif %}
+
+</article>
