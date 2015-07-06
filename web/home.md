@@ -18,14 +18,14 @@ hero:
   link: http://birminghamcoventrymidlands.newsprints.co.uk/
 
 video:
- poster: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.png
- mp4: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.mp4
- webm: http://s3.mirror.co.uk/midlands/ctbusinessawards/video_ctbusinessawards-2014.webm
+ poster: http://s3.mirror.co.uk/midlands/ctbusinessawards/coventry-telegraph-business-awards_2015_highlights_720.jpg
+ mp4: http://s3.mirror.co.uk/midlands/ctbusinessawards/coventry-telegraph-business-awards_2015_highlights_720.mp4
+ webm: http://s3.mirror.co.uk/midlands/ctbusinessawards/coventry-telegraph-business-awards_2015_highlights_720.webm
 
 partners: true
 
 sitemap:
-  lastmod: 2015-02-23
+  lastmod: 2015-07-06
   priority: 0.7
   changefreq: weekly
   exclude: false
