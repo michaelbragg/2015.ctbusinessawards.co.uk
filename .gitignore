@@ -7,6 +7,9 @@ web/_includes/css/*.css
 
 ## Ruby
 
+.bundle
+vendor/
+
 ##  Jekyll
 
 _site/
